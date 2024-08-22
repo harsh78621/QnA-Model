@@ -1,3 +1,6 @@
-torch>=1.9.0
-transformers>=4.0.0
+# Requirements file for the project
+# Ensure you are using Python 3.11 or Python 3.10
+
+torch==2.1.2
+transformers==4.42.3
 
