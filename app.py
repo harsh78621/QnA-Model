@@ -1,3 +1,4 @@
+chmod +x post-install.sh
 import streamlit as st
 from PIL import Image
 import io
@@ -10,7 +11,7 @@ from pdf2image import convert_from_path
 from pytesseract import image_to_string
 import re
 import spacy
-import en_core_web_sm
+
 # Load environment variables
 os.environ['GENAI_API_KEY'] = 'AIzaSyDJuDtnzp3dEvttkr4oia3pGvmTQuDT-E0'
 genai.configure(api_key=os.environ['GENAI_API_KEY'])
@@ -20,7 +21,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv('GENAI_API_KEY'))
 
 # Load SpaCy model
-nlp = en_core_web_sm.load()
+nlp = spacy.load("en_core_web_sm")
 
 class ResearchPaperAnalyzer:
     def __init__(self, model_name: str):
