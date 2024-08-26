@@ -1,6 +1,6 @@
 streamlit==1.37.1
 pytesseract==0.3.13
-pillow>=9.5.0
+pillow==8.4.0
 google-generativeai==0.7.2  # Replace with the actual version if available
 python-dotenv==1.0.0
 PyMuPDF==1.24.9
