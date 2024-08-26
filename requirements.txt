@@ -8,3 +8,4 @@ camelot-py[cv]
 pdf2image==1.17.0
 spacy==3.7.6
 numpy==1.26.4
+spacy download en
