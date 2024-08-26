@@ -1,4 +1,3 @@
-!python -m spacy download en_core_web_sm
 import streamlit as st
 from PIL import Image
 import io
