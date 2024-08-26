@@ -1,4 +1,9 @@
-
-transformers==4.42.3
-torch==2.1.2
-click==7.1.2
+streamlit
+pytesseract
+pillow
+google-generativeai  # Replace with the actual version if available
+python-dotenv
+PyMuPDF
+camelot-py[cv]
+pdf2image
+spacy
