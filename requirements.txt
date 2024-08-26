@@ -4,6 +4,6 @@ pillow==8.4.0
 google-generativeai==0.7.2  # Replace with the actual version if available
 python-dotenv==1.0.0
 PyMuPDF==1.24.9
-camelot-py[cv]
+camelot-py[cv]==0.10.1
 pdf2image==1.17.0
 spacy==3.7.6
