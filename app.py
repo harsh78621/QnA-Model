@@ -13,7 +13,7 @@ import re
 import spacy
 
 # Load environment variables
-os.environ['GENAI_API_KEY'] = 'AIzaSyDJuDtnzp3dEvttkr4oia3pGvmTQuDT-E0'
+os.environ['GENAI_API_KEY'] = 'YOUR_API_KEY'
 genai.configure(api_key=os.environ['GENAI_API_KEY'])
 
 # Load environment variables from a .env file
