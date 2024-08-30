@@ -1,11 +1,11 @@
-streamlit==1.22.0
-pytesseract==0.3.13
-pillow==9.4.0
-google-generativeai==0.7.2  # Replace with the actual version if available
+Pillow
 python-dotenv
-PyMuPDF==1.24.9
+PyMuPDF
 camelot-py[cv]
-pdf2image==1.17.0
-spacy==3.5.0
---upgrade cython
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+pdf2image
+pytesseract
+spacy
+google-generativeai
+ghostscript
+PyPDF2==2.12.1
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
